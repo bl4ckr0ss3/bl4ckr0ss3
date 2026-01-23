@@ -3,10 +3,10 @@
 
 
 <p align="center">
-  <img src="https://media1.tenor.com/m/XQMkb6ywgHIAAAAd/jetamysic.gif" alt="MasterHead" />
+  <img src="https://i.pinimg.com/736x/2c/f0/b8/2cf0b85b45b2266ba10b1743f6e0c063.jpg" alt="MasterHead" />
 </p>
 
-![Typing_SVG](https://readme-typing-svg.herokuapp.com?color=%CC00FF&lines=Welcome+to+My+Cybersecurity+Journey)
+<h1 align="center">7.7.7.7</h1>
 
 
 <h1 align="center">Hi 👋, I'm blackrose</h1>
