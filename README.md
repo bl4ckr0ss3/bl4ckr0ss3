@@ -2,10 +2,6 @@
 <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 
 
-<p align="center">
-  <img src="https://i.pinimg.com/736x/2c/f0/b8/2cf0b85b45b2266ba10b1743f6e0c063.jpg" alt="MasterHead" />
-</p>
-
 <h1 align="center">7.7.7.7</h1>
 
 
