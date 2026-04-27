@@ -25,7 +25,7 @@
 
 <!-- 3D DONEN ASCII TORUS — pure SVG SMIL animation, no GIF -->
 <!-- bu kismi asagidaki "torus.svg" dosyasi olarak repoya commit edicen -->
-<img src="https://github.com/bl4ckr0ss3/bl4ckr0ss3/blob/main/assets/torus.svg" width="400" alt="rotating ascii torus" />
+<img src="https://raw.githubusercontent.com/bl4ckr0ss3/bl4ckr0ss3/main/assets/torus.svg" width="400" />
 
 </div>
 
