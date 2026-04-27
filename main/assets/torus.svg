@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="holo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F5FF">
+        <animate attributeName="stop-color" values="#00F5FF;#FF00FF;#FFD700;#00F5FF" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#FF00FF">
+        <animate attributeName="stop-color" values="#FF00FF;#FFD700;#00F5FF;#FF00FF" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#FFD700">
+        <animate attributeName="stop-color" values="#FFD700;#00F5FF;#FF00FF;#FFD700" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="#000000"/>
+  <g transform="translate(200,200)" filter="url(#glow)" font-family="monospace" font-size="11" fill="url(#holo)" text-anchor="middle">
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite"/>
+      <text y="-95">. : ; + * # @ # * + ; : .</text>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="60" to="420" dur="7s" repeatCount="indefinite"/>
+      <text y="-75">: ; + * # @ $ @ # * + ; :</text>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="120" to="480" dur="6s" repeatCount="indefinite"/>
+      <text y="-50">; + * # @ $ % $ @ # * + ;</text>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="180" to="540" dur="5s" repeatCount="indefinite"/>
+      <text y="-20">+ * # @ $ % &amp; % $ @ # * +</text>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="5s" repeatCount="indefinite"/>
+      <text y="20">* # @ $ % &amp; * &amp; % $ @ # *</text>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="60" to="-300" dur="6s" repeatCount="indefinite"/>
+      <text y="50">+ * # @ $ % &amp; % $ @ # * +</text>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="120" to="-240" dur="7s" repeatCount="indefinite"/>
+      <text y="75">; + * # @ $ @ # * + ;</text>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="180" to="-180" dur="8s" repeatCount="indefinite"/>
+      <text y="95">. : ; + * # @ # * + ; : .</text>
+    </g>
+    <circle r="3" fill="#00F5FF">
+      <animate attributeName="r" values="2;6;2" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <text x="20" y="30" font-family="monospace" font-size="10" fill="#00F5FF" opacity="0.6">ENTITY.LATTICE</text>
+  <text x="20" y="380" font-family="monospace" font-size="10" fill="#FF00FF" opacity="0.6">ROTATING</text>
+  <text x="380" y="30" font-family="monospace" font-size="10" fill="#FFD700" text-anchor="end" opacity="0.6">[LOCKED]</text>
+  <text x="380" y="380" font-family="monospace" font-size="10" fill="#00F5FF" text-anchor="end" opacity="0.6">DIM: ∞</text>
+</svg>
