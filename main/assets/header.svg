@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="1200" height="200">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="200" fill="#0A0E1A"/>
+  <line x1="0" y1="100" x2="1200" y2="100" stroke="#1E293B" stroke-width="1"/>
+  <line x1="0" y1="60" x2="1200" y2="60" stroke="#1E293B" stroke-width="0.5" stroke-dasharray="4 4"/>
+  <line x1="0" y1="140" x2="1200" y2="140" stroke="#1E293B" stroke-width="0.5" stroke-dasharray="4 4"/>
+  <g filter="url(#glow)">
+    <path stroke="#22D3EE" stroke-width="2" fill="none" stroke-linecap="round">
+      <animate attributeName="d" dur="4s" repeatCount="indefinite" values="
+        M0,100 Q60,100 120,100 T240,100 T360,100 T480,100 T600,100 T720,100 T840,100 T960,100 T1080,100 T1200,100;
+        M0,100 Q60,40 120,100 T240,100 T360,60 T480,100 T600,140 T720,100 T840,80 T960,100 T1080,120 T1200,100;
+        M0,100 Q60,80 120,100 T240,40 T360,100 T480,140 T600,100 T720,60 T840,100 T960,120 T1080,100 T1200,100;
+        M0,100 Q60,100 120,100 T240,100 T360,100 T480,100 T600,100 T720,100 T840,100 T960,100 T1080,100 T1200,100"/>
+    </path>
+  </g>
+  <text x="40" y="40" font-family="monospace" font-size="11" fill="#22D3EE" opacity="0.6">azure.frequency</text>
+  <text x="40" y="180" font-family="monospace" font-size="11" fill="#22D3EE" opacity="0.6">22.3318 THz</text>
+  <text x="1160" y="40" font-family="monospace" font-size="11" fill="#67E8F9" opacity="0.6" text-anchor="end">● LIVE</text>
+  <text x="1160" y="180" font-family="monospace" font-size="11" fill="#22D3EE" opacity="0.6" text-anchor="end">bl4ckr0ss3</text>
+  <circle cx="1148" cy="36" r="3" fill="#67E8F9">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+</svg>
