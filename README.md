@@ -6,7 +6,7 @@
 <div align="center">
 
 <!-- holografik prism header (capsule render w/ gradient + waving) -->
-<img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=12,20,24,30&height=220&section=header&text=void.protocol&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=entity%3A%200xblackrose%20//%20status%3A%20transcended&descAlignY=62&descSize=14" />
+<img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=12,20,24,30&height=220&section=header&text=blackrose&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=entity%3A%200xblackrose%20//%20status%3A%20transcended&descAlignY=62&descSize=14" />
 
 </div>
 
