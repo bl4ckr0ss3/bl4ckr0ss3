@@ -79,7 +79,7 @@ const operator = {
 
 ### 〔 ⌁ ⟩  telemetry
 
-<img height="160em" src="https://github-readme-stats.vercel.app/api?username=bl4ckr0ss3&show_icons=true&hide_border=true&bg_color=0A0E1A&title_color=22D3EE&icon_color=67E8F9&text_color=E2E8F0&count_private=true&include_all_commits=true" />
+<img height="160em" src="https://github-readme-stats.vercel.app/api?username=0xblack&show_icons=true&hide_border=true&bg_color=0A0E1A&title_color=22D3EE&icon_color=67E8F9" />
 <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bl4ckr0ss3&layout=compact&hide_border=true&bg_color=0A0E1A&title_color=22D3EE&text_color=E2E8F0&langs_count=8" />
 
 <br>
